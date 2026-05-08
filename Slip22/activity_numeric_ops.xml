@@ -1,0 +1,62 @@
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#FFFDE7"&gt;
+
+    &lt;LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="12dp"&gt;
+
+        &lt;TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter No : "
+            android:textSize="16sp"
+            android:gravity="center_vertical"/&gt;
+
+        &lt;EditText
+            android:id="@+id/etNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"/&gt;
+
+    &lt;/LinearLayout&gt;
+
+    &lt;RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"&gt;
+
+        &lt;RadioButton android:id="@+id/rbOddEven" android:text="Odd or Even" android:checked="true"/&gt;
+        &lt;RadioButton android:id="@+id/rbPosNeg" android:text="Positive or Negative"/&gt;
+        &lt;RadioButton android:id="@+id/rbSquare" android:text="Square"/&gt;
+
+    &lt;/RadioGroup&gt;
+
+    &lt;Button
+        android:id="@+id/btnClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click"
+        android:layout_marginBottom="12dp"/&gt;
+
+    &lt;View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#888888"
+        android:layout_marginBottom="8dp"/&gt;
+
+    &lt;TextView
+        android:id="@+id/tvAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ans : "
+        android:textSize="16sp"/&gt;
+
+&lt;/LinearLayout&gt;

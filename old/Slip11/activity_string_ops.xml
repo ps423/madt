@@ -1,0 +1,65 @@
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"&gt;
+
+    &lt;LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="12dp"&gt;
+
+        &lt;TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter String: "/&gt;
+
+        &lt;EditText
+            android:id="@+id/etString"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="hello"/&gt;
+
+    &lt;/LinearLayout&gt;
+
+    &lt;RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"&gt;
+
+        &lt;RadioButton android:id="@+id/rbUppercase" android:text="Uppercase" android:checked="true"/&gt;
+        &lt;RadioButton android:id="@+id/rbLowercase" android:text="Lowercase"/&gt;
+        &lt;RadioButton android:id="@+id/rbRight5" android:text="Right 5 Character"/&gt;
+        &lt;RadioButton android:id="@+id/rbLeft5" android:text="Left 5 Character"/&gt;
+
+    &lt;/RadioGroup&gt;
+
+    &lt;Button
+        android:id="@+id/btnClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click"
+        android:layout_marginBottom="12dp"/&gt;
+
+    &lt;LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"&gt;
+
+        &lt;TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Output: "/&gt;
+
+        &lt;TextView
+            android:id="@+id/tvOutput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"/&gt;
+
+    &lt;/LinearLayout&gt;
+
+&lt;/LinearLayout&gt;

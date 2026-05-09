@@ -1,0 +1,33 @@
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"&gt;
+
+    &lt;TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Light Bulb Toggle"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"/&gt;
+
+    &lt;ImageView
+        android:id="@+id/imgBulb"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@android:drawable/btn_star_big_off"
+        android:scaleType="fitCenter"
+        android:layout_marginBottom="30dp"/&gt;
+
+    &lt;ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="Bulb ON"
+        android:textOff="Bulb OFF"
+        android:textSize="18sp"/&gt;
+
+&lt;/LinearLayout&gt;
